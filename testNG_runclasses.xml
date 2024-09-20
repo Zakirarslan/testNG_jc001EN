@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Classes Suite" verbose="1">
+    <test name="Running Classes">
+        <classes>
+            <class name="myapp.tests.dataprovider.Day23_DataProvider1"></class>
+            <class name="myapp.tests.smoketest.Day22_BlueRentalLoginTest"></class>
+            <class name="myapp.tests.topics.Day20_DriverTest"></class>
+        </classes>
+    </test>
+</suite>

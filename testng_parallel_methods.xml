@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Methods Suite" parallel="methods" thread-count="4">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/omera/IdeaProjects/JC001QA_TestNG/src/test/java/myapp/tests/topics/Day22_OrangeHRM_Login_DynamicWay.java">
+        <classes>
+            <class name="myapp.tests.topics.Day22_OrangeHRM_Login_DynamicWay"/>
+            <class name="myapp.tests.excelautomation.Day23_ExcelLogin"/>
+            <class name="myapp.tests.topics.Day21_ConfigReaderTest"/>
+        </classes>
+    </test>
+</suite>
